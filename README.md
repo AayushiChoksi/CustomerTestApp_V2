@@ -42,20 +42,17 @@ If you haven't installed SQLite, download and install it from the SQLite Downloa
 
 1. *Navigate to the CustomerService directory*:
 
-    bash
     cd CustomerService
     
 
 2. *Restore dependencies and build the project*:
 
-    bash
     dotnet restore
     dotnet build
     
 
 3. *Run the backend service*:
 
-    bash
     dotnet run
     
 
