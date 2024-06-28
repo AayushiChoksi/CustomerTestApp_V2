@@ -1,0 +1,423 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\views\\customereditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\views\\customereditorview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\views\\customerlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\views\\customerlistview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\services\\grpccustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\services\\grpccustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerservice\\logs\\log-20240628.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\logs\\log-20240628.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerservice\\services\\customerserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\services\\customerserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerservice\\protos\\customerservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\protos\\customerservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\services\\customermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\services\\customermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerServiceGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerServiceGrpc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\customerstestapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\customerstestapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerservice\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerservice\\services\\logginginterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\services\\logginginterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\protos\\customerservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\protos\\customerservice.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerstestapp\\commands\\addcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{678EC459-95D0-44B8-96AB-A978DBA4D82C}|CustomersTestApp\\CustomersTestApp.csproj|solutionrelative:customerstestapp\\commands\\addcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerservice\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|c:\\users\\dhair\\onedrive\\desktop\\aayushi\\customertestapp-main\\customerstestapp\\customerservice\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{852EBADA-E094-4B88-9EC4-BA925049D243}|CustomerService\\CustomerService.csproj|solutionrelative:customerservice\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GrpcCustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Services\\GrpcCustomerService.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\Services\\GrpcCustomerService.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Services\\GrpcCustomerService.cs",
+              "RelativeToolTip": "CustomersTestApp\\Services\\GrpcCustomerService.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAvwDkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T21:39:32.846Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerEditorView.xaml",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Views\\CustomerEditorView.xaml",
+              "RelativeDocumentMoniker": "CustomersTestApp\\Views\\CustomerEditorView.xaml",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Views\\CustomerEditorView.xaml",
+              "RelativeToolTip": "CustomersTestApp\\Views\\CustomerEditorView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T15:03:23.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerListView.xaml",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Views\\CustomerListView.xaml",
+              "RelativeDocumentMoniker": "CustomersTestApp\\Views\\CustomerListView.xaml",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Views\\CustomerListView.xaml",
+              "RelativeToolTip": "CustomersTestApp\\Views\\CustomerListView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T14:36:08.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\ViewModels\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\ViewModels\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\ViewModels\\CustomerViewModel.cs",
+              "RelativeToolTip": "CustomersTestApp\\ViewModels\\CustomerViewModel.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAADwv1AAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T04:22:24.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "CustomersTestApp\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\MainWindow.xaml",
+              "RelativeToolTip": "CustomersTestApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T14:34:52.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\App.xaml",
+              "RelativeDocumentMoniker": "CustomersTestApp\\App.xaml",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\App.xaml",
+              "RelativeToolTip": "CustomersTestApp\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T04:25:53.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "CustomersTestApp\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAAAgBAAAAAAAAAAAswCIBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T21:20:09.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "log-20240628.txt",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\logs\\log-20240628.txt",
+              "RelativeDocumentMoniker": "CustomerService\\logs\\log-20240628.txt",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\logs\\log-20240628.txt",
+              "RelativeToolTip": "CustomerService\\logs\\log-20240628.txt",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-06-28T14:14:37.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\App.xaml.cs",
+              "RelativeToolTip": "CustomersTestApp\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T05:22:37.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "customerService.proto",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Protos\\customerService.proto",
+              "RelativeDocumentMoniker": "CustomerService\\Protos\\customerService.proto",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Protos\\customerService.proto",
+              "RelativeToolTip": "CustomerService\\Protos\\customerService.proto",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwEEAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-06-28T05:47:33.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "CustomersTestApp\\Commands\\RelayCommand.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAADwvyIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T11:55:18.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\ICustomerService.cs",
+              "RelativeToolTip": "CustomersTestApp\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:10:20.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerServiceImpl.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Services\\CustomerServiceImpl.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Services\\CustomerServiceImpl.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Services\\CustomerServiceImpl.cs",
+              "RelativeToolTip": "CustomerService\\Services\\CustomerServiceImpl.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAANMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T21:37:24.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerServiceGrpc.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerServiceGrpc.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerServiceGrpc.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerServiceGrpc.cs",
+              "RelativeToolTip": "CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerServiceGrpc.cs",
+              "ViewState": "AQIAABMBAAAAAAAAAAAwwDgBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:29:55.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerService.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerService.cs",
+              "RelativeToolTip": "CustomersTestApp\\obj\\Debug\\net8.0-windows\\Protos\\CustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPkHAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:30:09.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomersTestApp\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T00:22:30.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Models\\Customer.cs",
+              "RelativeToolTip": "CustomerService\\Models\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T04:11:07.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerMapper.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Services\\CustomerMapper.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\Services\\CustomerMapper.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Services\\CustomerMapper.cs",
+              "RelativeToolTip": "CustomersTestApp\\Services\\CustomerMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:32:38.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomersTestApp.csproj",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\CustomersTestApp.csproj",
+              "RelativeDocumentMoniker": "CustomersTestApp\\CustomersTestApp.csproj",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\CustomersTestApp.csproj",
+              "RelativeToolTip": "CustomersTestApp\\CustomersTestApp.csproj",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-27T21:34:34.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoggingInterceptor.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Services\\LoggingInterceptor.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Services\\LoggingInterceptor.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Services\\LoggingInterceptor.cs",
+              "RelativeToolTip": "CustomerService\\Services\\LoggingInterceptor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T13:07:24.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "customerService.proto",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Protos\\customerService.proto",
+              "RelativeDocumentMoniker": "CustomersTestApp\\Protos\\customerService.proto",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Protos\\customerService.proto",
+              "RelativeToolTip": "CustomersTestApp\\Protos\\customerService.proto",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-06-28T00:18:58.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AddCustomerCommand.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Commands\\AddCustomerCommand.cs",
+              "RelativeDocumentMoniker": "CustomersTestApp\\Commands\\AddCustomerCommand.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomersTestApp\\Commands\\AddCustomerCommand.cs",
+              "RelativeToolTip": "CustomersTestApp\\Commands\\AddCustomerCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T12:51:25.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "CustomerService\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T05:08:51.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "CustomerService\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\dhair\\OneDrive\\Desktop\\Aayushi\\CustomerTestApp-main\\CustomersTestApp\\CustomerService\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "CustomerService\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T05:08:22.147Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
