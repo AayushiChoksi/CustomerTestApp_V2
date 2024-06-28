@@ -1,0 +1,874 @@
+2024-06-28 09:39:09.068 -04:00 [INF] Starting web host
+2024-06-28 09:39:10.906 -04:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-28 09:39:10.914 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-28 09:39:10.922 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-28 09:39:10.932 -04:00 [INF] No migrations were applied. The database is already up to date.
+2024-06-28 09:39:11.199 -04:00 [WRN] Overriding address(es) 'http://localhost:5203'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-06-28 09:39:11.205 -04:00 [INF] Now listening on: http://localhost:5203
+2024-06-28 09:39:11.206 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-28 09:39:11.207 -04:00 [INF] Hosting environment: Development
+2024-06-28 09:39:11.208 -04:00 [INF] Content root path: C:\Users\dhair\OneDrive\Desktop\Aayushi\CustomerTestApp-main\CustomersTestApp\CustomerService
+2024-06-28 09:39:20.662 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 09:39:20.709 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 09:39:20.709 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 09:39:20.713 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 09:39:20.732 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 09:39:20.732 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 09:39:20.894 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 09:39:20.894 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 09:39:20.935 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 09:39:20.935 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 09:39:20.945 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 09:39:20.945 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 09:39:20.950 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 289.2853ms
+2024-06-28 09:39:20.950 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 241.1804ms
+2024-06-28 09:39:42.749 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 09:39:42.752 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 09:39:42.754 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 09:39:42.839 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 15), @p4='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 09:39:42.845 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 09:39:42.846 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 09:39:42.848 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 98.0145ms
+2024-06-28 09:40:10.443 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 09:40:10.445 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 09:40:10.446 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 09:40:10.448 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 09:40:10.450 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 09:40:10.450 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 09:40:10.451 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 8.3489ms
+2024-06-28 09:40:10.609 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 09:40:10.611 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 09:40:10.612 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 09:40:10.614 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 09:40:10.615 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 09:40:10.616 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 09:40:10.617 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 7.9466ms
+2024-06-28 09:42:14.392 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 09:42:14.393 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 09:42:14.399 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 09:42:14.455 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 09:42:14.460 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 09:42:14.468 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 09:42:14.470 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 09:42:14.471 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 79.5891ms
+2024-06-28 09:42:41.991 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 09:42:41.993 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 09:42:41.994 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 09:42:41.998 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 09:42:42.003 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 09:42:42.013 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 09:42:42.014 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 09:42:42.015 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 23.8997ms
+2024-06-28 10:02:58.675 -04:00 [INF] Application is shutting down...
+2024-06-28 10:03:04.523 -04:00 [INF] Starting web host
+2024-06-28 10:03:04.951 -04:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-28 10:03:04.958 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-28 10:03:04.966 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-28 10:03:04.975 -04:00 [INF] No migrations were applied. The database is already up to date.
+2024-06-28 10:03:05.022 -04:00 [WRN] Overriding address(es) 'http://localhost:5203'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-06-28 10:03:05.028 -04:00 [INF] Now listening on: http://localhost:5203
+2024-06-28 10:03:05.029 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-28 10:03:05.029 -04:00 [INF] Hosting environment: Development
+2024-06-28 10:03:05.030 -04:00 [INF] Content root path: C:\Users\dhair\OneDrive\Desktop\Aayushi\CustomerTestApp-main\CustomersTestApp\CustomerService
+2024-06-28 10:05:41.557 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:05:41.572 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:05:41.587 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:05:41.624 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:05:41.628 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:05:41.629 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:05:41.698 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:05:41.698 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:05:41.730 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:05:41.730 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:05:41.738 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:05:41.738 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:05:41.742 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 185.4434ms
+2024-06-28 10:05:41.742 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 117.4927ms
+2024-06-28 10:06:04.382 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 10:06:04.384 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:06:04.386 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:06:04.438 -04:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 17), @p4='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 10:06:04.442 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:06:04.443 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:06:04.444 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 61.8664ms
+2024-06-28 10:06:14.877 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 10:06:14.879 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:06:14.880 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:06:14.928 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:06:14.931 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:06:14.931 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:06:14.932 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 55.0377ms
+2024-06-28 10:09:15.316 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 10:09:15.318 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:09:15.319 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:09:15.322 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 16), @p4='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 10:09:15.323 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:09:15.324 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:09:15.324 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 8.0831ms
+2024-06-28 10:09:15.345 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 10:09:15.347 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:09:15.347 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:09:15.350 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 16), @p4='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 10:09:15.351 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:09:15.351 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:09:15.352 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 6.7863ms
+2024-06-28 10:09:15.354 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:09:15.356 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:09:15.356 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:09:15.357 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:09:15.359 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:09:15.359 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:09:15.360 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.7727ms
+2024-06-28 10:09:15.365 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 10:09:15.366 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:09:15.367 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:09:15.370 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:09:15.374 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p3='?' (Size = 36), @p0='?' (DbType = Int32), @p1='?' (Size = 24), @p2='?' (Size = 16)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0, "Email" = @p1, "Name" = @p2
+WHERE "Id" = @p3
+RETURNING 1;
+2024-06-28 10:09:15.377 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:09:15.378 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:09:15.379 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 14.0621ms
+2024-06-28 10:09:15.380 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 10:09:15.382 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:09:15.383 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:09:15.385 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:09:15.389 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 10:09:15.393 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:09:15.394 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:09:15.394 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 14.0363ms
+2024-06-28 10:09:15.396 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/FilterCustomers - application/grpc null
+2024-06-28 10:09:15.398 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/FilterCustomers'
+2024-06-28 10:09:15.399 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/FilterCustomers
+2024-06-28 10:09:15.417 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__request_Name_0='?' (Size = 19), @__request_Email_1='?' (Size = 21)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Name" IS NOT NULL AND instr("c"."Name", @__request_Name_0) > 0 AND "c"."Email" IS NOT NULL AND instr("c"."Email", @__request_Email_1) > 0
+2024-06-28 10:09:15.419 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/FilterCustomers
+2024-06-28 10:09:15.419 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/FilterCustomers'
+2024-06-28 10:09:15.420 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/FilterCustomers - 200 null application/grpc 23.5582ms
+2024-06-28 10:13:43.769 -04:00 [INF] Application is shutting down...
+2024-06-28 10:16:01.071 -04:00 [INF] Starting web host
+2024-06-28 10:16:01.481 -04:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-28 10:16:01.489 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-06-28 10:16:01.497 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-06-28 10:16:01.507 -04:00 [INF] No migrations were applied. The database is already up to date.
+2024-06-28 10:16:01.549 -04:00 [WRN] Overriding address(es) 'http://localhost:5203'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2024-06-28 10:16:01.554 -04:00 [INF] Now listening on: http://localhost:5203
+2024-06-28 10:16:01.555 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-28 10:16:01.555 -04:00 [INF] Hosting environment: Development
+2024-06-28 10:16:01.556 -04:00 [INF] Content root path: C:\Users\dhair\OneDrive\Desktop\Aayushi\CustomerTestApp-main\CustomersTestApp\CustomerService
+2024-06-28 10:16:16.674 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:16:16.688 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:16:16.704 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:16:16.729 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:16:16.733 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:16:16.734 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:16:16.829 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:16:16.829 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:16:16.862 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:16:16.862 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:16:16.870 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:16:16.870 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:16:16.875 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 144.9326ms
+2024-06-28 10:16:16.875 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 201.1833ms
+2024-06-28 10:16:35.449 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 10:16:35.451 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:16:35.453 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:16:35.507 -04:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 17), @p4='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 10:16:35.512 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:16:35.513 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:16:35.514 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 64.1694ms
+2024-06-28 10:16:44.333 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 10:16:44.335 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:16:44.336 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:16:44.385 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:16:44.389 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 10:16:44.392 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:16:44.393 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:16:44.393 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 59.9216ms
+2024-06-28 10:16:44.884 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 10:16:44.886 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:16:44.886 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:16:44.889 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:16:44.891 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:16:44.891 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:16:44.892 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 7.3996ms
+2024-06-28 10:16:58.167 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 10:16:58.168 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:16:58.169 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:16:58.171 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:16:58.172 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 10:16:58.174 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:16:58.175 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:16:58.175 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 8.4408ms
+2024-06-28 10:17:03.253 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 10:17:03.254 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:17:03.255 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:17:03.257 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:17:03.261 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 10:17:03.265 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:17:03.265 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:17:03.266 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 13.5321ms
+2024-06-28 10:17:21.227 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 10:17:21.228 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:17:21.229 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:17:21.230 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:17:21.232 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 10:17:21.238 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:17:21.239 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:17:21.240 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 12.8493ms
+2024-06-28 10:37:21.073 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:37:21.074 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:37:21.075 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:37:21.077 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:37:21.078 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:37:21.079 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:37:21.079 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 6.7364ms
+2024-06-28 10:37:21.137 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:37:21.138 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:37:21.142 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:37:21.143 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:37:21.144 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:37:21.145 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:37:21.146 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 9.6007ms
+2024-06-28 10:37:43.554 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 10:37:43.555 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:37:43.556 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:37:43.562 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 25), @p4='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 10:37:43.564 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:37:43.564 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:37:43.565 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 10.8285ms
+2024-06-28 10:37:55.536 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 10:37:55.537 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:37:55.538 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:37:55.539 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:37:55.541 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 10:37:55.548 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:37:55.548 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:37:55.549 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 13.0195ms
+2024-06-28 10:38:21.621 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 10:38:21.623 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:38:21.624 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:38:21.625 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:38:21.627 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 10:38:21.629 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 10:38:21.629 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 10:38:21.630 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 8.7533ms
+2024-06-28 10:44:17.756 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:44:17.758 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:44:17.758 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:44:17.760 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:44:17.762 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:44:17.762 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:44:17.763 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 6.7262ms
+2024-06-28 10:44:17.824 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:44:17.825 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:44:17.826 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:44:17.827 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:44:17.829 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:44:17.829 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:44:17.830 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.9203ms
+2024-06-28 10:44:27.793 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 10:44:27.795 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:44:27.795 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:44:27.797 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:44:27.798 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 10:44:27.800 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:44:27.801 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:44:27.801 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 8.0098ms
+2024-06-28 10:44:49.905 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 10:44:49.906 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:44:49.907 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:44:49.909 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 17), @p4='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 10:44:49.910 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:44:49.911 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:44:49.911 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 6.8046ms
+2024-06-28 10:45:05.691 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 10:45:05.693 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:45:05.694 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:45:05.695 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:45:05.697 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 10:45:05.699 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:45:05.699 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:45:05.700 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 8.2607ms
+2024-06-28 10:45:23.069 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 10:45:23.070 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:45:23.071 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:45:23.073 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 12), @p4='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 10:45:23.074 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:45:23.075 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:45:23.075 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 6.4644ms
+2024-06-28 10:50:05.249 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:50:05.251 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:50:05.251 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:50:05.253 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:50:05.254 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:50:05.255 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:50:05.255 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 6.339ms
+2024-06-28 10:50:05.325 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:50:05.326 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:50:05.327 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:50:05.328 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:50:05.329 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:50:05.330 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:50:05.330 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.9176ms
+2024-06-28 10:50:20.035 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 10:50:20.036 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:50:20.037 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:50:20.038 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 10:50:20.040 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 10:50:20.042 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 10:50:20.042 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 10:50:20.043 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 8.2032ms
+2024-06-28 10:50:45.527 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:50:45.528 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:50:45.529 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:50:45.530 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:50:45.531 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:50:45.532 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:50:45.532 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.4108ms
+2024-06-28 10:50:45.594 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:50:45.596 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:50:45.597 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:50:45.598 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:50:45.599 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:50:45.599 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:50:45.600 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.9959ms
+2024-06-28 10:51:07.485 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 10:51:07.486 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:51:07.486 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:51:07.488 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 25), @p4='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 10:51:07.490 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 10:51:07.490 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 10:51:07.491 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 6.0769ms
+2024-06-28 10:53:23.811 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:53:23.812 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:53:23.813 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:53:23.814 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:53:23.815 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:53:23.816 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:53:23.816 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.3113ms
+2024-06-28 10:53:23.881 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 10:53:23.883 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:53:23.884 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:53:23.884 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 10:53:23.886 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 10:53:23.886 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 10:53:23.887 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.6307ms
+2024-06-28 11:00:43.403 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:00:43.404 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:00:43.405 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:00:43.412 -04:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:00:43.413 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:00:43.414 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:00:43.414 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 11.3955ms
+2024-06-28 11:00:43.473 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:00:43.474 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:00:43.476 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:00:43.477 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:00:43.478 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:00:43.479 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:00:43.479 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 6.6819ms
+2024-06-28 11:03:45.354 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:03:45.355 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:03:45.356 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:03:45.357 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:03:45.358 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:03:45.359 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:03:45.359 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.1633ms
+2024-06-28 11:03:45.417 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:03:45.418 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:03:45.420 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:03:45.421 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:03:45.422 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:03:45.423 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:03:45.423 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 6.5665ms
+2024-06-28 11:06:07.313 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 11:06:07.314 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 11:06:07.316 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 11:06:07.317 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 11:06:07.319 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 11:06:07.322 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 11:06:07.322 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 11:06:07.323 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 10.1686ms
+2024-06-28 11:06:39.131 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 11:06:39.132 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 11:06:39.133 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 11:06:39.135 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 17), @p4='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 11:06:39.136 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 11:06:39.136 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 11:06:39.137 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 6.4265ms
+2024-06-28 11:06:59.840 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 11:06:59.841 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 11:06:59.842 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 11:06:59.843 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 11:06:59.844 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 11:06:59.846 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 11:06:59.847 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 11:06:59.847 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 7.3891ms
+2024-06-28 11:07:39.693 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:07:39.695 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:07:39.696 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:07:39.697 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:07:39.698 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:07:39.699 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:07:39.699 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.8075ms
+2024-06-28 11:07:39.766 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:07:39.767 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:07:39.768 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:07:39.769 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:07:39.770 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:07:39.771 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:07:39.771 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.769ms
+2024-06-28 11:10:54.172 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:10:54.174 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:10:54.174 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:10:54.176 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:10:54.177 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:10:54.177 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:10:54.178 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.5889ms
+2024-06-28 11:10:54.250 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:10:54.252 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:10:54.254 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:10:54.255 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:10:54.256 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:10:54.256 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:10:54.257 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 6.6655ms
+2024-06-28 11:11:57.898 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 11:11:57.899 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 11:11:57.906 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 11:11:57.908 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 12), @p4='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 11:11:57.909 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 11:11:57.910 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 11:11:57.910 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 12.754ms
+2024-06-28 11:16:26.638 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:16:26.640 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:16:26.640 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:16:26.642 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:16:26.643 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:16:26.643 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:16:26.644 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.8964ms
+2024-06-28 11:16:26.702 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:16:26.703 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:16:26.704 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:16:26.705 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:16:26.706 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:16:26.706 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:16:26.707 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.0939ms
+2024-06-28 11:16:39.157 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 11:16:39.159 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 11:16:39.159 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 11:16:39.161 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 11:16:39.162 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 11:16:39.164 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 11:16:39.165 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 11:16:39.165 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 7.693ms
+2024-06-28 11:16:46.900 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:16:46.902 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:16:46.903 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:16:46.904 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:16:46.905 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:16:46.905 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:16:46.906 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.5147ms
+2024-06-28 11:16:46.968 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:16:46.969 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:16:46.970 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:16:46.971 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:16:46.972 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:16:46.972 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:16:46.973 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 4.7831ms
+2024-06-28 11:20:06.918 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:20:06.919 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:20:06.920 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:20:06.921 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:20:06.922 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:20:06.922 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:20:06.923 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 4.9561ms
+2024-06-28 11:20:06.993 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:20:06.994 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:20:06.997 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:20:06.998 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:20:06.999 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:20:07.000 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:20:07.000 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 7.4806ms
+2024-06-28 11:22:07.200 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:22:07.201 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:22:07.202 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:22:07.203 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:22:07.204 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:22:07.205 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:22:07.205 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.1867ms
+2024-06-28 11:22:07.282 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:22:07.283 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:22:07.284 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:22:07.285 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:22:07.286 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:22:07.286 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:22:07.287 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.202ms
+2024-06-28 11:24:21.145 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:24:21.147 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:24:21.147 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:24:21.148 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:24:21.149 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:24:21.150 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:24:21.150 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.0164ms
+2024-06-28 11:24:21.213 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:24:21.215 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:24:21.215 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:24:21.216 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:24:21.217 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:24:21.218 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:24:21.218 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.1175ms
+2024-06-28 11:25:38.193 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:25:38.194 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:25:38.195 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:25:38.196 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:25:38.197 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:25:38.197 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:25:38.198 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 4.9159ms
+2024-06-28 11:25:38.259 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:25:38.260 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:25:38.261 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:25:38.262 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:25:38.263 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:25:38.263 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:25:38.264 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.1616ms
+2024-06-28 11:25:52.932 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - application/grpc null
+2024-06-28 11:25:52.933 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 11:25:52.934 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 11:25:52.936 -04:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 36), @p1='?' (DbType = Boolean), @p2='?' (DbType = Int32), @p3='?' (Size = 12), @p4='?' (Size = 2)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Customers" ("Id", "CanRemove", "Discount", "Email", "Name")
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2024-06-28 11:25:52.937 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/CreateCustomer
+2024-06-28 11:25:52.938 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/CreateCustomer'
+2024-06-28 11:25:52.938 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/CreateCustomer - 200 null application/grpc 6.3185ms
+2024-06-28 11:28:56.736 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:28:56.738 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:28:56.738 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:28:56.739 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:28:56.741 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:28:56.741 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:28:56.742 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.4432ms
+2024-06-28 11:28:56.825 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:28:56.826 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:28:56.827 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:28:56.827 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:28:56.829 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:28:56.829 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:28:56.830 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.003ms
+2024-06-28 11:29:30.182 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 11:29:30.183 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 11:29:30.184 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 11:29:30.185 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 11:29:30.186 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 11:29:30.194 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 11:29:30.194 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 11:29:30.195 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 12.9549ms
+2024-06-28 11:29:44.803 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 11:29:44.805 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 11:29:44.805 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 11:29:44.806 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 11:29:44.808 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 11:29:44.814 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 11:29:44.815 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 11:29:44.815 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 11.7201ms
+2024-06-28 11:30:01.111 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - application/grpc null
+2024-06-28 11:30:01.113 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 11:30:01.113 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 11:30:01.115 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 11:30:01.116 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Customers"
+WHERE "Id" = @p0
+RETURNING 1;
+2024-06-28 11:30:01.123 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/DeleteCustomer
+2024-06-28 11:30:01.123 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/DeleteCustomer'
+2024-06-28 11:30:01.124 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/DeleteCustomer - 200 null application/grpc 12.2675ms
+2024-06-28 11:30:10.377 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:30:10.378 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:30:10.378 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:30:10.379 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:30:10.380 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:30:10.381 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:30:10.381 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 4.7481ms
+2024-06-28 11:30:10.443 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - application/grpc null
+2024-06-28 11:30:10.444 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:30:10.445 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:30:10.446 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+2024-06-28 11:30:10.447 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/GetAllCustomers
+2024-06-28 11:30:10.448 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/GetAllCustomers'
+2024-06-28 11:30:10.448 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/GetAllCustomers - 200 null application/grpc 5.1744ms
+2024-06-28 11:30:38.605 -04:00 [INF] Request starting HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - application/grpc null
+2024-06-28 11:30:38.607 -04:00 [INF] Executing endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 11:30:38.607 -04:00 [INF] Starting call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 11:30:38.608 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (Size = 36)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."CanRemove", "c"."Discount", "c"."Email", "c"."Name"
+FROM "Customers" AS "c"
+WHERE "c"."Id" = @__p_0
+LIMIT 1
+2024-06-28 11:30:38.610 -04:00 [INF] Executed DbCommand (0ms) [Parameters=[@p1='?' (Size = 36), @p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Customers" SET "Discount" = @p0
+WHERE "Id" = @p1
+RETURNING 1;
+2024-06-28 11:30:38.611 -04:00 [INF] Completed call. Type: /CustomerService.CustomerService/UpdateCustomer
+2024-06-28 11:30:38.612 -04:00 [INF] Executed endpoint 'gRPC - /CustomerService.CustomerService/UpdateCustomer'
+2024-06-28 11:30:38.612 -04:00 [INF] Request finished HTTP/2 POST http://localhost:5203/CustomerService.CustomerService/UpdateCustomer - 200 null application/grpc 7.1887ms
