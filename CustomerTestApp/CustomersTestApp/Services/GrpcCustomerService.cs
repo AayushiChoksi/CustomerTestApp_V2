@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 using Grpc.Net.Client;
 using Grpc.Core;
 using CustomerTestApp;
-using CustomersTestApp.Services;
 using CustomersTestApp.Models;
 using System.Collections.Generic;
+using CustomersTestApp.Services;
 
 namespace CustomerTestApp.Services
 {
@@ -103,6 +103,18 @@ namespace CustomerTestApp.Services
             var response = await call.ResponseAsync;
             var grpcCustomers = response.Customers.Select(c => CustomerMapper.ToLocalCustomer(c));
             return new ObservableCollection<CustomersTestApp.Models.Customer>(grpcCustomers);
+        }
+
+        // Streaming call to get a stream of customers from the server
+        public async Task<ObservableCollection<CustomersTestApp.Models.Customer>> GetCustomersStreamAsync()
+        {
+            var customers = new ObservableCollection<CustomersTestApp.Models.Customer>();
+            using var call = _client.GetCustomersStream(new Google.Protobuf.WellKnownTypes.Empty(), _headers);
+            await foreach (var response in call.ResponseStream.ReadAllAsync())
+            {
+                customers.Add(CustomerMapper.ToLocalCustomer(response.Customer));
+            }
+            return customers;
         }
     }
 }

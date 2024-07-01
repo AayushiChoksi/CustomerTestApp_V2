@@ -11,15 +11,26 @@
     <Window.DataContext>
         <viewModels:MainViewModel />
     </Window.DataContext>
-    <Grid>
+    <Grid Background="{DynamicResource BackgroundColor}">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="3*" MinWidth="200"/>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="5*" MinWidth="400"/>
         </Grid.ColumnDefinitions>
 
+        <!-- Customer List View -->
         <views:CustomerListView Grid.Column="0" Margin="10"/>
+
+        <!-- Grid Splitter -->
         <GridSplitter Grid.Column="1" Width="5" Background="Gray" HorizontalAlignment="Stretch"/>
+
+        <!-- Customer Editor View -->
         <views:CustomerEditorView Grid.Column="2" Margin="10"/>
+
+        <!-- Export/Import Buttons -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="10">
+            <Button Content="Export" Command="{Binding ExportCommand}" Width="100" Margin="5"/>
+            
+        </StackPanel>
     </Grid>
 </Window>
