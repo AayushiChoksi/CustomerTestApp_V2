@@ -2,11 +2,11 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Grpc.Core;
-using CustomerService;
 using CustomerService.Data;
 using CustomerService.Models;
 using Google.Protobuf.WellKnownTypes;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 
 namespace CustomerService.Services
 {
